@@ -1,0 +1,20 @@
+:root {
+  --cor-0: #75b3c3;
+  --cor-1: #111111;
+  --cor-6: #333333;
+  --cor-2: #b2b2b2;
+  --cor-3: #ffffff;
+  --cor-4: #000000;
+}
+.detalhe-ponto {
+  color: var(--cor-0);
+}
+.cor-cinza {
+  color: var(--cor-2);
+}
+.cor-branca {
+  color: var(--cor-3);
+}
+.cor-0 {
+  color: var(--cor-0);
+}
