@@ -12,5 +12,8 @@
 @import url(./home/introducao.css);
 
 @import url(./seguros/seguros.css);
+
 @import url(./carros/carros-lista.css);
+@import url(./carros/carros.css);
+
 @import url(./termos/termos.css);
