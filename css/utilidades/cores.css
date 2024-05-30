@@ -5,6 +5,7 @@
   --cor-2: #b2b2b2;
   --cor-3: #ffffff;
   --cor-4: #000000;
+  --cor-7:#222222;
 }
 .detalhe-ponto {
   color: var(--cor-0);
@@ -20,4 +21,7 @@
 }
 .cor-6{
   color: var(--cor-6);
+}
+.cor-1{
+  color: var(--cor-1);
 }
