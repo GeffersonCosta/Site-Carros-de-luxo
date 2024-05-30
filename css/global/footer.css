@@ -38,7 +38,7 @@ a {
 }
 
 @media (max-width: 800px) {
-  .carros-de-luxo {
+  .footer .carros-de-luxo {
     display: none;
   }
   .footer {
