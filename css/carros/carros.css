@@ -1,5 +1,5 @@
 .carros-bg:nth-child(odd) {
-  background-color: var(--cor-4);
+ background: linear-gradient(to right,var(--cor-3)30%, var(--cor-4) 0%);
 }
 .carros {
   display: grid;
@@ -27,19 +27,20 @@
 .carros-conteudo{
   display: grid;
   grid-template-columns: 1fr auto;
-  /*gap: 20px;*/
+  align-content: start;
 }
 .carros h2, p{
   grid-column: 1 / -1;
 }
 .carros h2{
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .carros a{
   place-self: end;
 }
 .carros ul{
   display: grid;
+  margin-top: 15px;
   gap: 10px;
 }
 .carros li{
@@ -59,6 +60,9 @@
   left: -1px;
 }
 @media (max-width: 800px){
+  .carros-bg:nth-child(odd){
+    background: var(--cor-4);
+  }
   .carros{
     grid-template-columns: 1fr;
     gap: 20px;
