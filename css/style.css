@@ -5,6 +5,7 @@
 @import url(./utilidades/tipografia.css);
 @import url(./utilidades/cores.css);
 @import url(./utilidades/componentes.css);
+@import url(./utilidades/formulario.css);
 
 @import url(./home/tecnologia.css);
 @import url(./home/parceiros.css);
@@ -20,5 +21,8 @@
 
 @import url(./carro/carro.css);
 @import url(./carro/seguro.css);
+
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
 
 @import url(./termos/termos.css);
