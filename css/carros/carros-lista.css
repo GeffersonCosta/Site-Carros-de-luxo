@@ -3,16 +3,21 @@
 }
 .carros-lista h2 {
   margin-bottom: 40px;
+  padding-left: 18px;
 }
 .carros-lista ul {
   display: flex;
   gap: 40px;
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   /*margin: 0 auto;*/
   margin-right: auto;
   margin-left: auto;
   overflow-x: auto;
+}
+
+#carro .carros-lista ul{
+  padding: 0px 0px 20px 20px;
 }
 .carros-lista li {
   min-width: 290px;
@@ -41,6 +46,10 @@
 .carros-lista a img:hover {
   transform: scale(1.1);
   transition: all 0.9s;
+}
+#carro .carros-lista a img:hover{
+  transition: none;
+  transform: none;
 }
 .carros-lista li span {
   padding-left: 19px;
